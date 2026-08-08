@@ -12,21 +12,20 @@ Software systems become easier to understand and change when developers can reas
 
 ---
 
-## Derivation & Foundations
+## Foundations & Mapping
 
 * **Derived From Principles:**
-  * `information-hiding`: Reduces the information exposed across module boundaries, allowing reasoning to remain focused on the relevant interface rather than hidden design decisions.
-  * `deep-modules`: Provides substantial functionality behind simple interfaces, reducing the amount of implementation detail that users of a module need to understand.
+  * `information-hiding`: Hiding volatile design choices prevents cognitive overload regarding internal details.
+  * `deep-modules`: Simple interfaces allow engineers to reason about module boundaries without keeping implementation details in working memory.
 
 ---
 
 ## Boundary
 
-This Mental Model explains how modularity can reduce the amount of information developers need to consider when understanding or modifying a system. It is an explanatory framework, not a source-derived design criterion (Principle) or an actionable implementation rule (Practice).
+This Mental Model provides explanatory rationale for why boundary and abstraction practices reduce cognitive overhead. It is an explanatory lens for system design, not an actionable engineering practice or a normative principle.
 
 ---
 
 ## Related
 
 * **Related Principles:** `information-hiding`, `deep-modules`
-
